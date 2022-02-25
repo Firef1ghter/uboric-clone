@@ -1,0 +1,240 @@
+.container > div:nth-child(1) {
+   height:40px;
+    color: white;
+    font-family: "PT Sans", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding: 7px;
+    margin-top: 0%;
+    background-color: #114b71;
+    position: sticky;
+    top: 0;
+  }
+
+  #search{
+      height:22px;
+      margin-top: 22px;
+      margin-left: 15px;
+      width: 300px;
+  }
+
+  #navbar{ 
+      display: flex;
+      
+      
+  }
+  
+  .center {
+    display: block;
+    margin-left: 50px;
+    margin-top: 8px;
+    width: 50%;
+  }
+  #navtwo{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    z-index: 1;
+  }
+  #img1{
+    height:400px;
+    width:100%;
+  }
+  #kw{
+    display:flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  #kw>h2{
+    color:#114b71;
+  }
+  #kw>img{
+    margin-top: 10px;
+  }
+  #kwc{
+    display: flex;
+    justify-content: space-around;
+  }
+  #kwc>img{
+    width: 30%;
+    height: 300px;
+  }
+  #cs{
+  
+    height: 260px;
+    width: 100%;
+  
+    margin-top: 60px;
+  }
+  #oc{
+    display:flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  #oc>h2{
+    color:#114b71;
+  }
+  #oc>img{
+    height: 35px;
+    width: 60px;
+  }
+  #ct{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0%;
+  }
+  #ct>h2{
+    color:#114b71; ;
+  }
+  #oc1{
+    display: flex;
+    justify-content: space-around;
+
+  }
+  #oc1>img{
+    height: 400px;
+    width: 47%;
+  }
+  #hf{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #bhf{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+
+  }
+  #bhf>img{
+    height: 400px;
+    width: 47%;
+  }
+  .five{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+  }
+  .five>img{
+    height: 200px;
+    width: 15%;
+  }
+  #spices{
+    display:flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  #spices>h2{
+    color:#114b71;
+  }
+  #footwear{
+    display:flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+  #footwear>h2{
+    color:#114b71;
+  }
+  #fw{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #content{
+    height: 330px;
+    width: 80%;
+    background-color: rgb(235, 227, 217);
+    margin: auto;
+    margin-top: 60px;
+  }
+  #content>h1{
+    color: #114b71;
+    padding: auto;
+  }
+  #footer{
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    margin-top: 60px;
+  }
+  #play{
+    padding-left: 45%;
+    padding-right: 40%;
+    padding-top: 100px;
+  }
+  #seven{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+  }
+  #seven>h3{
+    color: white;
+  }
+  #bs{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+  }
+  #bs>h3{
+    color: white;
+    
+  }
+  .dropdown {
+    font-family: "PT Sans", serif;
+    font-size: 17px;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dropdown i {
+    right: -8px;
+    font-size: 18px;
+    color: #bbb;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: 43px;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    color: #6d6d6d;
+    font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  }
+  
+
+  
+  .dropdown-content a:hover {
+    color: #98cb4c;
+    padding-left: 10%;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
